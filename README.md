@@ -229,8 +229,6 @@ int main() {
             printf("%s a ete electe\n", la->val.nom);
         }
     }
-
-    // Free allocated memory before exiting
     struct cellule* temp;
     while (m != NULL) {
         temp = m;
